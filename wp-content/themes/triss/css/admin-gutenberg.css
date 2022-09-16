@@ -1,0 +1,78 @@
+.chosen-container, .cs-sections .chosen-container {
+    width: 100%!important
+}
+
+.edit-post-layout__content .editor-styles-wrapper, .editor-block-list__layout .editor-block-list__block[data-align=full] {
+    max-width: none
+}
+
+.edit-post-layout__content .editor-styles-wrapper {
+    margin: 0
+}
+
+.edit-post-visual-editor .editor-block-list__block, .edit-post-visual-editor .editor-post-title__block {
+    max-width: 1000px
+}
+
+.editor-block-list__block .wp-block-pullquote blockquote {
+    margin: 0;
+    border: none;
+    padding: 0
+}
+
+.editor-block-list__block-edit blockquote.wp-block-quote {
+    margin: 0
+}
+
+.editor-styles-wrapper img, .gutenberg__editor img {
+    max-width: 100%!important
+}
+
+.gutenberg__editor .editor-rich-text ol, .gutenberg__editor .editor-rich-text ul {
+    margin: 0 0 1.5em 3em
+}
+
+.gutenberg__editor .editor-rich-text ol {
+    list-style: decimal
+}
+
+.gutenberg__editor .editor-rich-text ul {
+    list-style: disc
+}
+
+.gutenberg__editor address {
+    margin: 0 0 1.5em
+}
+
+.gutenberg__editor blockquote, .gutenberg__editor q {
+    quotes: """"
+}
+
+.gutenberg__editor blockquote:after, .gutenberg__editor blockquote:before, .gutenberg__editor q:after, .gutenberg__editor q:before {
+    content: ""
+}
+
+.gutenberg__editor dd {
+    margin: 0 1.5em 1.5em
+}
+
+.gutenberg__editor dt {
+    font-weight: 700
+}
+
+.post-type-post .editor-styles-wrapper .wp-block-paragraph, .post-type-post .editor-styles-wrapper li {
+    font-size: 16px;
+    line-height: 28px
+}
+
+.wp-block[data-type="coblocks/pricing-table-item"] .wp-block-coblocks-pricing-table-item.has-secondary-background-color {
+    color: #fff
+}
+
+body.gutenberg-editor-page .block-editor .wp-block-categories ul {
+    list-style-position: inside
+}
+
+body.gutenberg-editor-page .editor-block-list__block, body.gutenberg-editor-page .editor-default-block-appender, body.gutenberg-editor-page .editor-post-title__block {
+    max-width: 800px
+}

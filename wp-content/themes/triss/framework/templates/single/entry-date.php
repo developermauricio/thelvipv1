@@ -1,0 +1,20 @@
+<?php if ( ! defined( 'ABSPATH' ) ) { exit; } ?>
+
+<?php
+	if( $post_Style == 'breadcrumb-fixed' ): ?>
+    	<div class="date-wrap">
+            <i class="fas fa-clock"> </i>
+            <?php echo get_the_date ( get_option('date_format') ); ?>
+        </div><?php
+	elseif( $post_Style == 'overlap' ): ?>
+    	<div class="date-wrap">
+            <i class="fas fa-clock"> </i>
+            <?php echo get_the_date ( get_option('date_format') ); ?>
+        </div><?php
+	elseif( $post_Style == 'breadcrumb-parallax' || $post_Style == 'overlay' ):
+		echo get_the_date ( get_option('date_format') );
+	elseif( $post_Style == 'boxed' ): ?>
+		<?php echo get_the_date ( get_option('date_format') );	
+	else: ?>
+		<?php echo get_the_date ( get_option('date_format') );
+	endif; ?>
